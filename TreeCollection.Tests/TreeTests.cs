@@ -29,7 +29,7 @@ namespace TreeCollection.Tests
             // Action-Assert
 
             Assert.Multiple(() =>
-            {
+            { 
                 CollectionAssert.AreEquivalent(source, tree);
                 CollectionAssert.IsOrdered(isReversed ? tree.Reverse() : tree);
             });
